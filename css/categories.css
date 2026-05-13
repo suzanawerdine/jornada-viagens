@@ -1,0 +1,38 @@
+.categories-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+}
+
+.categories-cards a {
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.categories-cards a img {
+  height: 80px;
+  margin-bottom: 24px;
+  margin-top: 41px;
+}
+
+.categories-cards a h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+}
+
+.internacional img {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.section-title .busque {
+    margin-top: 88px;
+}
