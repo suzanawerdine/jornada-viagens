@@ -70,4 +70,8 @@ body {
   .button:hover {
     background-color: var(--primary-color);
   }
+
+  .section-title hr {
+    margin: 16px auto 64px;
+  }
 }

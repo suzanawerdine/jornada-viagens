@@ -56,12 +56,26 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .categories-cards {
-    width: 980px;
+  .categories-cards a {
+    width: 400px;
+  }
+
+  .categories-cards a.internacional img {
+    margin-top: 41px;
+    margin-bottom: 24px;
   }
 }
 @media screen and (min-width: 1440px) {
   .categories-cards {
     width: 100%;
+  }
+
+  .categories-cards a {
+    width: 312px;
+  }
+
+  .categories-cards a.internacional img {
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
