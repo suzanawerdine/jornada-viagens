@@ -28,7 +28,7 @@
   color: var(--text-primary-color);
 }
 
-.internacional img {
+.categories-cards a.internacional img {
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -38,4 +38,30 @@
   width: 200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .categories-cards a {
+    margin: 0;
+  }
+
+  .section-title .busque {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .categories-cards {
+    width: 980px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .categories-cards {
+    width: 100%;
+  }
 }
