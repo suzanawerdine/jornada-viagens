@@ -55,6 +55,8 @@
     margin: 0 auto;
 }
 
+
+
 @media screen and (min-width: 768px) {
     .destination-itens {
         width: 648px;
@@ -82,7 +84,9 @@
     .destination-itens .button {
     width: 280px;
     text-align: center;
-}
+    }
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -111,6 +115,8 @@
 }
 
 
+
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -127,3 +133,8 @@
     width: 588px;
     height: 452px;
     }
+
+    section {
+    width: 1200px;
+    margin: 0 auto;
+}
