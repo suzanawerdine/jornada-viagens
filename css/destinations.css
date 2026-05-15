@@ -1,0 +1,140 @@
+.item header {
+  display: block;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+  background-color: transparent;
+}
+
+.tokyo {
+    background-image: url(../img/Tokyo-mobile.jpg); no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 360px;
+}
+
+.osaka {
+    background-image: url(../img/Osaka-mobile.jpg); no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 360px;
+}
+
+.item h4 {
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    color: var(--text-primary-color);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.item p {
+    font-weight: var(--text-weight);
+    color: var(--text-primary-color);
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.destination-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    width: 312px;
+    margin: 0 auto;
+}
+
+.destination-itens .button {
+    width: 312px;
+    text-align: center;
+}
+
+.popular-destinations h2 {
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .destination-itens {
+        width: 648px;
+    }
+
+    .tokyo {
+    background-image: url(../img/Tokyo-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 452px;
+    }
+
+    .osaka {
+    background-image: url(../img/Osaka-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 452px;
+    }
+
+    .popular-destinations h2 {
+    width: 350px;
+    margin: 88px auto 0;
+    }
+
+    .destination-itens .button {
+    width: 280px;
+    text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .tokyo {
+    background-image: url(../img/Tokyo-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 450px;
+    height: 452px;
+    }
+
+    .osaka {
+    background-image: url(../img/Osaka-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 452px;
+    }
+
+    .destination-itens {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 1440px) {
+    .tokyo {
+    background-image: url(../img/Tokyo-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    width: 588px;
+    height: 452px;
+    }
+
+    .osaka {
+    background-image: url(../img/Osaka-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    width: 588px;
+    height: 452px;
+    }
+
+    section {
+    width: 1200px;
+    margin: 0 auto;
+}
