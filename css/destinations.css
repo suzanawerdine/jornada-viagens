@@ -54,3 +54,76 @@
     width: 250px;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+    .destination-itens {
+        width: 648px;
+    }
+
+    .tokyo {
+    background-image: url(../img/Tokyo-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 452px;
+    }
+
+    .osaka {
+    background-image: url(../img/Osaka-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 452px;
+    }
+
+    .popular-destinations h2 {
+    width: 350px;
+    margin: 88px auto 0;
+    }
+
+    .destination-itens .button {
+    width: 280px;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .tokyo {
+    background-image: url(../img/Tokyo-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 450px;
+    height: 452px;
+    }
+
+    .osaka {
+    background-image: url(../img/Osaka-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 452px;
+    }
+
+    .destination-itens {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+}
+
+@media screen and (min-width: 1440px) {
+    .tokyo {
+    background-image: url(../img/Tokyo-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    width: 588px;
+    height: 452px;
+    }
+
+    .osaka {
+    background-image: url(../img/Osaka-tablet-desk.jpg); no-repeat;
+    background-size: cover;
+    width: 588px;
+    height: 452px;
+    }
