@@ -107,13 +107,13 @@ section.hero {
 
   section {
     width: 900px;
-    margin: 0 auto 88px;
+    margin: 0 auto 104px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   section {
     width: 1200px;
-    margin: 0 auto 88px;
+    margin: 0 auto 104px;
   }
 }

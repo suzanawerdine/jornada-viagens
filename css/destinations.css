@@ -112,6 +112,11 @@
     gap: 24px;
     justify-content: center;
     margin: 0 auto;
+    }
+
+    .popular-destinations h2 {
+    margin: 104px auto 0;
+    }
 }
 
 
