@@ -44,4 +44,8 @@
   .testimonials-container {
     flex-direction: row;
   }
+
+  .testimonials .section-title .testimonials-title {
+    margin-top: 104px
+  }
 }

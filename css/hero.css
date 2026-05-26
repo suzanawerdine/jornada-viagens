@@ -51,8 +51,8 @@
   .hero h2 {
     padding-left: 120px;
     padding-right: 120px;
-    padding-bottom: 88px;
-    padding-top: 88px;
+    padding-bottom: 104px;
+    padding-top: 104px;
     margin: 0;
     font-weight: var(--text-weight);
     font-size: 32px;
@@ -63,8 +63,8 @@
   .hero h2 {
     padding-left: 160px;
     padding-right: 160px;
-    padding-bottom: 88px;
-    padding-top: 88px;
+    padding-bottom: 104px;
+    padding-top: 104px;
     margin: 0;
     font-weight: var(--text-weight);
     font-size: 32px;
