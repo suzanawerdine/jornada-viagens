@@ -1,0 +1,66 @@
+.main-footer {
+    background-color: var(--background-tertiary-color);
+    color: var(--text-secondary-color);
+    width: 100%;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 24px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-content img {
+    width: 162px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.footer-content p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-content .horario {
+    margin-bottom: 8px;
+}
+
+.footer-social {
+    margin-top: 32px;
+}
+
+.footer-social img {
+    height: 32px;
+    width: 32px;
+}
+
+.footer-social .instagram {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer-social p {
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-content p {
+        font-size: 20px;
+    } 
+}
+
+@media screen and (min-width: 1440px) {
+    .main-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .footer-content {
+        text-align: left;
+    }
+}
