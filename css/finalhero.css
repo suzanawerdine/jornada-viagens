@@ -5,6 +5,13 @@
     height: 400px;
 }
 
+.pacotes-bottom-hero {
+    background-image: url("../img/pacotes-viagens/pacotes-bottomhero-mobile.png"); no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
 .finalhero {
     margin: 0;
     width: 100%;
@@ -16,10 +23,23 @@
     background-size: cover;
     width: 100%;
     }
+
+    .pacotes-bottom-hero {
+    background-image: url("../img/pacotes-viagens/pacotes-bottomhero-tablet.png"); no-repeat;
+    background-size: cover;
+    width: 100%;
+    }
+
+
 }
 
 @media screen and (min-width: 1024px) {
     .finalhero-img {
+    height: 600px;
+    width: 100%;
+    }
+
+    .pacotes-bottom-hero {
     height: 600px;
     width: 100%;
     }
