@@ -55,6 +55,13 @@
     margin: 0 auto;
 }
 
+.excursao h2 {
+    width: 250px;
+    margin: 88px auto 0;
+}
+
+
+
 
 
 @media screen and (min-width: 768px) {
@@ -80,6 +87,11 @@
     width: 350px;
     margin: 88px auto 0;
     }
+
+    .excursao h2 {
+    width: 360px;
+    margin: 88px auto 0;
+}
 
     .destination-itens .button {
     width: 280px;
@@ -121,9 +133,6 @@
 
 
 
-
-}
-
 @media screen and (min-width: 1440px) {
     .tokyo {
     background-image: url(../img/Tokyo-tablet-desk.jpg); no-repeat;
@@ -141,5 +150,4 @@
 
     section {
     width: 1200px;
-    margin: 0 auto;
 }
