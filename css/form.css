@@ -1,0 +1,42 @@
+.form p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: var(--text-weight);
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.form hr {
+    margin-bottom: 56px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.form-group label {
+    position: absolute;
+    left: 0;
+    display: block;
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+    color: #8C8C8C;
+    font-weight: var(--text-weight);
+}
+
+.form-group input {
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #D9D9D9;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--text-primary-color);
+  
+}
+
+.textarea-group label {
+    display: block;
+}
