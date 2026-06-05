@@ -12,6 +12,13 @@
     height: 400px;
 }
 
+.contact-bottom-hero {
+    background-image: url("../img/contato/contactbottomhero-mobile.png"); no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
 .finalhero {
     margin: 0;
     width: 100%;
@@ -30,6 +37,13 @@
     width: 100%;
     }
 
+    .contact-bottom-hero {
+    background-image: url("../img/contato/contactbottomhero-tablet.png"); no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    }
+
 
 }
 
@@ -43,4 +57,18 @@
     height: 600px;
     width: 100%;
     }
+
+    .contact-bottom-hero {    
+    height: 600px;
+    width: 100%;
+    background-position: center 50%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+  .contact-bottom-hero {
+    background-image: url("../img/contato/contactbottomhero-desktop.png"); no-repeat;
+    background-size: cover;    
+    height: 600px;
+    width: 100%;
 }
