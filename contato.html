@@ -27,7 +27,7 @@
     </header>
     <section class="pacotes hero">
       <div class="contact hero-img">
-       <h1>Entre em contato!</h1> 
+       <h1 class="contacth1">Entre em contato!</h1> 
        <hr>
       <h2>Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!</h2>
       </div>
@@ -40,18 +40,17 @@
         </div>
         <form action="#" method="get" class="contact-form">
             <div class="form-group">
-            <label for="name">Seu nome</label>
-            <input type="text" id="name" name="name" placeholder=" " required>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+            </div>
+            
+            <div class="contact-row">
+            <div class="form-group phone">
+            <input type="text" id="phone" name="phone" placeholder="Telefone" required>
             </div>
 
-            <div class="form-group">
-            <label for="phone">Telefone</label>
-            <input type="text" id="phone" name="phone" placeholder=" " required>
+            <div class="form-group email">
+            <input type="email" id="email" name="email" placeholder="Email" required>
             </div>
-
-            <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder=" " required>
             </div>
 
             <div class="form-group">
@@ -63,7 +62,7 @@
             <textarea id="message" name="message" required></textarea>
             </div>
 
-            <button type="submit" class="button">Enviar</button>
+            <button type="submit" class="button contact-button">Enviar!</button>
         </form>
     </section>
     

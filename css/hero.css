@@ -70,7 +70,7 @@
     background-position: bottom;
   }
 
-  .pacotes.hero-img {
+  .pacotes .hero-img {
     height: 620px;
     background-position: center;
   }
@@ -96,6 +96,10 @@
   .pacotes h2 {
     padding: 0 60px 0 120px;
     line-height: 150%;
+  }
+
+  .hero-img .contacth1 {
+    padding-top: 183px;
   }
 }
 

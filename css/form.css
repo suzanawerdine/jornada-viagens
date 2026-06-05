@@ -1,42 +1,105 @@
 .form p {
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: var(--text-weight);
-    text-align: center;
-    margin-bottom: 56px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  text-align: center;
+  margin-bottom: 56px;
 }
 
 .form hr {
-    margin-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 .form-group {
-    position: relative;
-    margin-bottom: 64px;
-}
-
-.form-group label {
-    position: absolute;
-    left: 0;
-    display: block;
-    font-size: 20px;
-    font-weight: var(--text-weight);
-    line-height: 32px;
-    color: #8C8C8C;
-    font-weight: var(--text-weight);
-}
-
-.form-group input {
-    width: 100%;
-    border: none;
-    border-bottom: 3px solid #D9D9D9;
-    background-color: transparent;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--text-primary-color);
-  
+  position: relative;
+  margin-bottom: 64px;
 }
 
 .textarea-group label {
-    display: block;
+  display: block;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  color: #8c8c8c;
+  font-weight: var(--text-weight);
+}
+
+.form-group input {
+  font-family: montserrat, sans-serif;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid #d9d9d9;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-primary-color);
+}
+
+.form-group input::placeholder {
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  color: #8c8c8c;
+  font-weight: var(--text-weight);
+}
+
+.textarea-group label {
+  display: block;
+}
+
+.textarea-group textarea {
+  font-family: montserrat, sans-serif;
+  width: 100%;
+  height: 90px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-primary-color);
+}
+
+.form-group input:focus, .form-group input:valid {
+    border-bottom-color: var(--secondary-color);
+}
+
+.textarea-group textarea:focus, .textarea-group textarea:valid {
+    border-color: var(--secondary-color);
+}
+
+.contact-form .contact-button {
+  width: 312px;
+  border: none;
+  font-family: montserrat, sans-serif;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-form .contact-button {
+  width: 280px;
+  display: block;
+  margin: 32px auto 0;
+  border: none;
+  font-family: montserrat, sans-serif;
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-form {
+        width: 790px;
+        margin: 0 auto;
+    }
+
+    .contact-row {
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+    }
+
+    .contact-row .form-group {
+        width: 100%;
+    }
+
+
 }
