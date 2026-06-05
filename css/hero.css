@@ -25,6 +25,16 @@
   background-position: 60% center;
 }
 
+.contact.hero-img {
+  background-image:   linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+        ), url("../img/contato/contact-hero.jpg");
+  height: 460px;
+  background-position: 20% center;
+  margin-bottom: 88px;
+}
+
 .pacotes hr {
   width: 180px;
   height: 4px;
@@ -60,7 +70,7 @@
     background-position: bottom;
   }
 
-  .pacotes.hero-img {
+  .pacotes .hero-img {
     height: 620px;
     background-position: center;
   }
@@ -86,6 +96,10 @@
   .pacotes h2 {
     padding: 0 60px 0 120px;
     line-height: 150%;
+  }
+
+  .hero-img .contacth1 {
+    padding-top: 183px;
   }
 }
 
