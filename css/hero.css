@@ -35,6 +35,16 @@
   margin-bottom: 88px;
 }
 
+.blog.hero-img {
+  background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ), url("../img/blog/hero-blog.jpg");
+  height: 460px;
+  background-position: center;
+}
+
+
 .pacotes hr {
   width: 180px;
   height: 4px;
