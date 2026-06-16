@@ -20,6 +20,27 @@
     height: 360px;
 }
 
+.osaka-blog {
+    background-image: url(../img/blog/osaka-blog-mobile.png); no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 300px;
+}
+
+.hiroshima-blog {
+    background-image: url(../img/blog/hiroshima-blog-mobile.png); no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 300px;
+}
+
+.kyoto-blog {
+    background-image: url(../img/blog/kyoto-blog-mobile.png); no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 300px;
+}
+
 .item h3 {
     font-size: 28px;
     font-weight: var(--title-weight);
@@ -83,9 +104,34 @@
     height: 452px;
     }
 
+    .osaka-blog {
+    background-image: url(../img/blog/osaka-blog-tablet.png); no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 300px;
+    }
+
+    .hiroshima-blog {
+    background-image: url(../img/blog/hiroshima-blog-tablet.png); no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 300px;
+    }
+
+    .kyoto-blog {
+    background-image: url(../img/blog/kyoto-blog-tablet.png); no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 300px;
+    }
+
     .popular-destinations h2 {
     width: 350px;
     margin: 88px auto 0;
+    }
+
+    .popular-destinations .blogposts {
+        width: 580px;
     }
 
     .excursao h2 {
@@ -118,6 +164,27 @@
     height: 452px;
     }
 
+    .osaka-blog {
+    background-image: url(../img/blog/osaka-blog-desktop.png); no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    }
+
+    .hiroshima-blog {
+    background-image: url(../img/blog/hiroshima-blog-desktop.png); no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    }
+
+    .kyoto-blog {
+    background-image: url(../img/blog/kyoto-blog-desktop.png); no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    }
+
     .destination-itens {
     display: flex;
     flex-direction: row;
@@ -128,6 +195,10 @@
 
     .popular-destinations h2 {
     margin: 104px auto 0;
+    }
+
+    .popular-destinations .blogposts {
+        width: 700px;
     }
 }
 
@@ -146,6 +217,18 @@
     background-size: cover;
     width: 588px;
     height: 452px;
+    }
+
+    .osaka-blog {
+        width: 384px;
+    }
+
+    .hiroshima-blog {
+        width: 384px;
+    }
+
+    .kyoto-blog {
+        width: 384px;
     }
 
     section {
